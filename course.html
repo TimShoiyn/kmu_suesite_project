@@ -104,19 +104,19 @@
                                     <td>Агрегирование и извлечение характеристик из данных цифровых источников</td>
                                     <td>01.01.2025</td>
                                     <td>15.11.2025</td>
-                                    <td>Выполнен мультимодальный анализ данных: текстовые (VADER, TextBlob, BERTweet, RoBERTa), визуальные (VGGFace) и акустические признаки (MFCC, просодика). Модели SVM, XGBoost, LSTM/CNN достигли 73% точности на видео и &gt;87% при объединении аудио+видео. Визуализации и датасеты доступны через <a href="https://colab.research.google.com/drive/1sPMYovTSRfAJzd0s8kTJM7fc6fMO-J_9?usp=sharing" target="_blank" rel="noopener">Colab</a> и <a href="https://drive.google.com/drive/u/0/folders/1TiTLeFYmbOJ_Lyak0mcwjjgMAT0zUw_w" target="_blank" rel="noopener">Google Drive</a>.</td>
+                                    <td>За отчетный период извлечены голосовые признаки (энергия, частотный диапазон, паузы, тон речи), визуально-лицевые признаки (мимика, микровыражения, динамика взгляда) и текстовые признаки (частота, лексическое разнообразие, средняя длина ответов и др.) для выявления суицидальных наклонностей респондента. Модели SVM, XGBoost, LSTM/CNN достигли 73% точности на видео и &gt;87% при объединении аудио+видео. Визуализации и датасеты доступны через <a href="https://colab.research.google.com/drive/1sPMYovTSRfAJzd0s8kTJM7fc6fMO-J_9?usp=sharing" target="_blank" rel="noopener">Colab</a> и <a href="https://drive.google.com/drive/folders/1hKSt8UC2e2_6X39p-lk9jJNQ5-MaiAhc" target="_blank" rel="noopener">Google Drive</a>.</td>
                                 </tr>
                                 <tr>
                                     <td>Проектирование и создание инфраструктуры хранения данных</td>
                                     <td>01.01.2025</td>
                                     <td>30.06.2025</td>
-                                    <td>Развернута облачная инфраструктура (Google Drive) с иерархией по контрольной и экспериментальной группам, автоматизировано извлечение кадров, транскрипция и диаризация аудио. Собрана база &gt;100 видеозаписей 50+ респондентов, одобрена методика интервью, опубликована статья «Detection of Suicidal Tendencies in Reddit Posts Using Machine Learning» (DOI: <a href="https://doi.org/10.32014/2025.2518-1726.339" target="_blank" rel="noopener">10.32014/2025.2518-1726.339</a>).</td>
+                                    <td>Создана облачная инфраструктура на Google Cloud Platform и организовано хранение данных в Google Drive (<a href="https://drive.google.com/drive/folders/16Q88eAZgmSsCDOrTpFbRemFGdwdm4fyj" target="_blank" rel="noopener">архив данных</a>). Совместно с психотерапевтом разработан <a href="https://drive.google.com/drive/folders/1UzU72lIv1gLqswn_aSGBjVGDR-H5qnlK?usp=sharing" target="_blank" rel="noopener">опросник</a> из четырех типов интервью, получено <a href="https://drive.google.com/drive/folders/15ZSy6IT-WtWzNbQP9sLzZMfyAejDEqwE?usp=sharing" target="_blank" rel="noopener">положительное заключение локальной комиссии</a>. Собрано 310 видеозаписей: 110 контрольная группа и 200 экспериментальная группа. Опубликована статья «Detection of Suicidal Tendencies in Reddit Posts Using Machine Learning» (DOI: <a href="https://doi.org/10.32014/2025.2518-1726.339" target="_blank" rel="noopener">10.32014/2025.2518-1726.339</a>), промежуточные результаты размещены на <a href="https://timshoiyn.github.io/kmu_suesite_project/blog.html" target="_blank" rel="noopener">странице результатов</a> и <a href="https://timshoiyn.github.io/kmu_suesite_project/course.html" target="_blank" rel="noopener">странице плана</a>.</td>
                                 </tr>
                                 <tr>
                                     <td>Разметка и извлечение характеристик из данных</td>
-                                    <td>01.05.2025</td>
+                                    <td>01.07.2025</td>
                                     <td>15.11.2025</td>
-                                    <td>Разработана методика классификации вероятности суицида: обработано 1&nbsp;036 видео 68 респондентов, выделены лицевые, речевые и эмоциональные признаки; подтверждена точность 73% (только видео) и &gt;87% (видео+аудио). Проведён сравнительный анализ контрольной и риск-группы (лексика, длительность ответов, паузы, sentiment). Опубликована статья «Сравнение машинного обучения и обучения с подкреплением...» (DOI: <a href="https://doi.org/10.32014/2025.2518-1726.350" target="_blank" rel="noopener">10.32014/2025.2518-1726.350</a>), подготовлен доклад ICEER 2025.</td>
+                                    <td>Разработана методика классификации вероятности суицидального поведения: обработано 1&nbsp;036 видео 68 респондентов, выполнена разметка по классам, выделены текстовые, акустические и визуальные признаки. Подтверждена точность 73% (только видео) и &gt;87% (видео+аудио), проведены эксперименты с Positive-Unlabeled Learning. Проведён сравнительный анализ эмоциональных состояний контрольной и риск-группы (VADER, TextBlob, BERTweet, RoBERTa; лексика, длина ответов, паузы, тон речи). Опубликована статья «Сравнение машинного обучения и обучения с подкреплением...» (DOI: <a href="https://doi.org/10.32014/2025.2518-1726.350" target="_blank" rel="noopener">10.32014/2025.2518-1726.350</a>), опубликована статья ICEER 2025 и получена номинация Best Paper Awards.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -140,19 +140,19 @@
                                     <td>Разработка и реализация алгоритмов выявления аномального поведения</td>
                                     <td>01.01.2026</td>
                                     <td>31.12.2026</td>
-                                    <td>Будут разработаны и реализованы алгоритмы выявления аномального поведения респондента.</td>
+                                    <td>Задачи периода находятся в работе. На данный момент разработаны: гибридная модель CNN + DNN для аудио-признаков по данным чтения стихотворений и депрессивного текста; RNN (LSTM) логико-лингвистическая модель для открытых ответов и описания картинок; DNN-модель распознавания эмоций по голосу на основе MFCC-признаков.</td>
                                 </tr>
                                 <tr>
                                     <td>Методы детектирования на основе логико-лингвистической модели ИИ</td>
                                     <td>01.01.2026</td>
                                     <td>31.03.2026</td>
-                                    <td>Будут разработаны алгоритмы классификации респондентов, склонных к суициду, с использованием логико-лингвистической модели ИИ.<br>Авторское свидетельство (1).<br>Техническая документация (1) по алгоритмам детектирования суицидальных наклонностей.</td>
+                                    <td>Зарегистрировано <a href="https://drive.google.com/drive/folders/1VA2V78Bm2gCcPTP_GoWwZBPEKjtiVHxB?usp=sharing" target="_blank" rel="noopener">авторское свидетельство</a>. Разработана <a href="https://drive.google.com/drive/folders/1Iq-3kJUjk85_sxsUECW4lKIVcSdr0tgV?usp=sharing" target="_blank" rel="noopener">техническая документация</a> по алгоритмам детектирования суицидальных наклонностей. Разработана классическая лексико-сентиментальная модель (VADER, TextBlob) и LSTM с эффективностью 94% (<a href="https://colab.research.google.com/drive/1zg5vFtAfhtUYA2SHXnD-SpMYRnYVjosZ?usp=drive_link" target="_blank" rel="noopener">Colab</a>).</td>
                                 </tr>
                                 <tr>
                                     <td>Обучение моделей ИИ и тестирование результатов</td>
                                     <td>01.04.2026</td>
                                     <td>30.06.2026</td>
-                                    <td>Будут разработаны алгоритмы ИИ для классификации респондентов, склонных к суициду, на основе выявленных эмоций во временной последовательности.<br>Монография по тематике исследования в казахстанском издательстве.<br>Участие в международной конференции.<br>Загрузка промежуточных результатов исследования на веб-сайт проекта.</td>
+                                    <td>Разработан алгоритм распознавания эмоций по голосу на основе MFCC-признаков и DNN (<a href="https://drive.google.com/drive/folders/14Gut8BvFJNVn5MdhJNF6st4tZJpniueO?usp=sharing" target="_blank" rel="noopener">материалы алгоритма</a>). Рукопись монографии готова и проходит утверждение (<a href="https://docs.google.com/document/d/11t1g7kMjsA1PP0nhSHZ4gZ8bdUrv8axW/edit?usp=sharing&amp;ouid=112239886626985350692&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">документ</a>). Статья принята на IEEE Conference on Artificial Intelligence 2026, которая пройдет 8–10 мая 2026 г. в Гранаде, Испания (<a href="https://drive.google.com/drive/folders/161-O_mrtsAdQqCbaLDzT4bzYHhA6b8kJ?usp=sharing" target="_blank" rel="noopener">подтверждение</a>). Загрузка промежуточных результатов на веб-сайт проекта не выполнена, так как период не завершен.</td>
                                 </tr>
                                 <tr>
                                     <td>Создание и реализация веб-сервиса</td>
@@ -201,4 +201,3 @@
     <script src="main.js" defer></script>
 </body>
 </html>
-
